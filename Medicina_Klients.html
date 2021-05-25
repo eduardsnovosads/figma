@@ -6,16 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Projekts Medicīna</title>
+    <style>
+        button {
+    background-color: #AFCDE7;
+    border: 2px solid #AFCDE7;
+    border-radius: 8px;
+    color: black;
+    padding: 40px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 34px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    cursor: pointer;
+        }
+        button:hover {
+    background-color: white;
+    color: black;
+    
+    }
+        
+    </style>
 </head>
 <body>
     <h1 align="center">Klients</h1>
 
     <div align="center" id="poga">
-        <button id="slimnicas">Slimnīcas</button>
+        <button onclick="document.location='slimnicu_tabula.html'" id="slimnicas">Slimnīcas</button>
     </div>
+
     <div align="center" id="poga">
-    <button onclick="document.location='pierakstu_tabula.html'" class="button">Pieraksti</button>
-</div>    
+        <button onclick="document.location='arstu_tabula.html'" class="button">Arsti</button>
+    </div>   
+
+    <div align="center" id="poga">
+        <button onclick="document.location='pierakstu_tabula.html'" class="button">Pieraksti</button>
+    </div>    
 </p>
 
     <div id="biblioteka">
